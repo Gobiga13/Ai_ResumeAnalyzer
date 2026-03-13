@@ -1,50 +1,40 @@
-# AI Resume Analyzer
+# AI Resume Analyzer (Frontend)
 
 ## 📌 Project Overview
 
-The AI Resume Analyzer is a web application that helps users evaluate and improve their resumes.
-The system analyzes the uploaded resume and provides feedback on skills, structure, and overall quality.
-This tool assists job seekers in understanding how well their resume matches modern industry expectations.
+AI Resume Analyzer is a frontend web application that helps users quickly review their resumes and get basic insights.
+The application analyzes the uploaded resume directly in the browser and identifies important skills, keywords, and sections. It provides instant feedback that helps users improve the quality and structure of their resumes.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 https://ai-resume-analyzer-g.vercel.app/
+🔗 https://ai-resume-analyzer-skill.vercel.app/
 
 ---
 
 ## ✨ Features
 
-* Upload and analyze resumes easily
-* Extracts important information from resumes
-* Provides feedback on resume content
-* Identifies key skills mentioned in the resume
-* Simple and user-friendly interface
-* Fast resume analysis
+* Upload and analyze resumes directly in the browser
+* Extracts important keywords and skills from the resume
+* Displays detected skills and resume insights
+* Provides simple suggestions to improve the resume
+* Fast and responsive user interface
+* No backend required
 
 ---
 
 ## 🛠 Technologies Used
 
-**Frontend**
+Frontend:
 
 * HTML
 * CSS
 * JavaScript
 * React
-
-**Backend**
-
-* Node.js
-* TypeScript
-
-**Other Tools**
-
 * Vite
-* REST APIs
 
-**Deployment**
+Deployment:
 
 * Vercel
 
@@ -52,11 +42,11 @@ This tool assists job seekers in understanding how well their resume matches mod
 
 ## ⚙️ How It Works
 
-1. The user uploads a resume.
-2. The system reads and processes the resume content.
-3. Important information such as skills and keywords are identified.
-4. The application analyzes the resume and generates feedback.
-5. The user receives suggestions to improve their resume.
+1. The user uploads a resume file.
+2. The application reads the resume content in the browser.
+3. Important keywords and skills are detected.
+4. The system analyzes the resume structure.
+5. The user receives feedback and suggestions to improve their resume.
 
 ---
 
@@ -71,7 +61,7 @@ AI-ResumeAnalyzer
 │   └── styles
 │
 ├── public
-├── server.ts
+├── index.html
 ├── package.json
 └── README.md
 ```
@@ -80,20 +70,20 @@ AI-ResumeAnalyzer
 
 ## 💡 Use Cases
 
-* Students preparing for internships
+* Students preparing resumes for internships
 * Job seekers improving their resumes
-* Career guidance and resume evaluation
-* Quick resume analysis before applying for jobs
+* Quick resume review before job applications
+* Learning project for frontend resume analysis tools
 
 ---
 
 ## 📈 Future Improvements
 
 * Resume scoring system
-* ATS compatibility analysis
-* Resume keyword optimization
-* Downloadable improvement report
-* Multi-format resume support
+* More advanced keyword detection
+* Resume formatting suggestions
+* Job description matching
+* Improved skill extraction
 
 ---
 
@@ -105,4 +95,4 @@ Developed by **Gobiga**
 
 ## ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you find this project useful, consider giving it a ⭐ on GitHub.
