@@ -10,7 +10,7 @@ This tool assists job seekers in understanding how well their resume matches mod
 
 ## 🚀 Live Demo
 
-🔗 https://ai-resume-analyzer-skill.vercel.app/
+🔗 https://ai-resume-analyzer-g.vercel.app/
 
 ---
 
@@ -27,24 +27,24 @@ This tool assists job seekers in understanding how well their resume matches mod
 
 ## 🛠 Technologies Used
 
-Frontend:
+**Frontend**
 
 * HTML
 * CSS
 * JavaScript
 * React
 
-Backend:
+**Backend**
 
 * Node.js
 * TypeScript
 
-Other Tools:
+**Other Tools**
 
 * Vite
 * REST APIs
 
-Deployment:
+**Deployment**
 
 * Vercel
 
@@ -87,16 +87,17 @@ AI-ResumeAnalyzer
 
 ---
 
-📈 Future Improvements
+## 📈 Future Improvements
 
-* Resume score system
+* Resume scoring system
 * ATS compatibility analysis
 * Resume keyword optimization
 * Downloadable improvement report
 * Multi-format resume support
 
 ---
- 👨‍💻 Author
+
+## 👨‍💻 Author
 
 Developed by **Gobiga**
 
