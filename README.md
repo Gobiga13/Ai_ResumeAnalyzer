@@ -1,20 +1,107 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# AI Resume Analyzer
 
-# Run and deploy your AI Studio app
+## 📌 Project Overview
 
-This contains everything you need to run your app locally.
+The AI Resume Analyzer is a web application that helps users evaluate and improve their resumes.
+The system analyzes the uploaded resume and provides feedback on skills, structure, and overall quality.
+This tool assists job seekers in understanding how well their resume matches modern industry expectations.
 
-View your app in AI Studio: https://ai.studio/apps/934159bb-ac5d-499c-8cc6-8289608a576b
+---
 
-## Run Locally
+## 🚀 Live Demo
 
-**Prerequisites:**  Node.js
+🔗 https://ai-resume-analyzer-skill.vercel.app/
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ✨ Features
+
+* Upload and analyze resumes easily
+* Extracts important information from resumes
+* Provides feedback on resume content
+* Identifies key skills mentioned in the resume
+* Simple and user-friendly interface
+* Fast resume analysis
+
+---
+
+## 🛠 Technologies Used
+
+Frontend:
+
+* HTML
+* CSS
+* JavaScript
+* React
+
+Backend:
+
+* Node.js
+* TypeScript
+
+Other Tools:
+
+* Vite
+* REST APIs
+
+Deployment:
+
+* Vercel
+
+---
+
+## ⚙️ How It Works
+
+1. The user uploads a resume.
+2. The system reads and processes the resume content.
+3. Important information such as skills and keywords are identified.
+4. The application analyzes the resume and generates feedback.
+5. The user receives suggestions to improve their resume.
+
+---
+
+## 📂 Project Structure
+
+```
+AI-ResumeAnalyzer
+│
+├── src
+│   ├── components
+│   ├── services
+│   └── styles
+│
+├── public
+├── server.ts
+├── package.json
+└── README.md
+```
+
+---
+
+## 💡 Use Cases
+
+* Students preparing for internships
+* Job seekers improving their resumes
+* Career guidance and resume evaluation
+* Quick resume analysis before applying for jobs
+
+---
+
+📈 Future Improvements
+
+* Resume score system
+* ATS compatibility analysis
+* Resume keyword optimization
+* Downloadable improvement report
+* Multi-format resume support
+
+---
+ 👨‍💻 Author
+
+Developed by **Gobiga**
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
